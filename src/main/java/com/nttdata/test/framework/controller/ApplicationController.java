@@ -52,7 +52,7 @@ public class ApplicationController extends ControllerBase implements IResourceCo
 			}*/
 
 		}catch (Exception ex) {
-			//log.error(ex.toString());
+			log.error(ex.toString());
 			//System.out.println(ex.toString());
 		}finally{
 
